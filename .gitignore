@@ -179,6 +179,9 @@ ClientBin/
 *.publishsettings
 node_modules/
 orleans.codegen.cs
+*.[Pp]ublish.xml
+sql/
+*.Cache
 
 # RIA/Silverlight projects
 Generated_Code/
@@ -192,8 +195,8 @@ UpgradeLog*.XML
 UpgradeLog*.htm
 
 # SQL Server files
-*.mdf
-*.ldf
+App_Data/*.mdf
+App_Data/*.ldf
 
 # Business Intelligence projects
 *.rdl.data
@@ -279,3 +282,49 @@ $RECYCLE.BIN/
 
 # Windows shortcuts
 *.lnk
+
+# Mac crap
+.DS_Store
+
+# =========================
+# Orchard specifics
+# =========================
+
+App_Data/
+glob:*.user
+*.patch
+*.hg
+build/
+/buildazure
+/buildtasks
+/artifacts
+*.sln.cache
+src/Orchard.Web/Media/*
+log.xml
+profiling/
+*.orig
+src/Orchard.Web/Modules-temp/*
+src/Backup/*
+src/packages/*
+src/node_modules
+src/UpgradeLog.*
+*.itrace.csdef
+*.build.csdef
+src/Orchard.Azure/Orchard.Azure.Web/Core/
+src/Orchard.Azure/Orchard.Azure.Web/Modules/
+src/Orchard.Azure/Orchard.Azure.Web/Themes/
+src/Orchard.Azure/Orchard.Azure.CloudService/csx/Debug/*
+src/Orchard.Web/Orchard.Web.Publish.xml
+src/TestResults/*
+src/Orchard.Web/Properties/PublishProfiles
+src/Orchard.Azure/Orchard.Azure.CloudService/Staging/
+
+#enable all /lib artifacts
+!lib/*/*.*
+*/.vs/*
+/src/Orchard.Web/Modules/TinyMceDeluxe
+/src/Orchard.Web/Modules/_Backup
+
+#mail credentials
+/src/Orchard.Web/Modules/Gilde/Services/MailCredentials.cs
+

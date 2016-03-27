@@ -278,6 +278,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Orchard.Resources", "Orchar
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gilde", "Orchard.Web\Modules\Gilde\Gilde.csproj", "{E88D571B-E012-43ED-99CC-A5FB9B832BE2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GildeTheme", "Orchard.Web\Themes\GildeTheme\GildeTheme.csproj", "{336A45AE-169F-467D-AAF8-83DC18EECA34}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		CodeCoverage|Any CPU = CodeCoverage|Any CPU
@@ -1114,6 +1116,13 @@ Global
 		{E88D571B-E012-43ED-99CC-A5FB9B832BE2}.FxCop|Any CPU.Build.0 = Release|Any CPU
 		{E88D571B-E012-43ED-99CC-A5FB9B832BE2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E88D571B-E012-43ED-99CC-A5FB9B832BE2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{336A45AE-169F-467D-AAF8-83DC18EECA34}.CodeCoverage|Any CPU.ActiveCfg = Release|Any CPU
+		{336A45AE-169F-467D-AAF8-83DC18EECA34}.Coverage|Any CPU.ActiveCfg = Release|Any CPU
+		{336A45AE-169F-467D-AAF8-83DC18EECA34}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{336A45AE-169F-467D-AAF8-83DC18EECA34}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{336A45AE-169F-467D-AAF8-83DC18EECA34}.FxCop|Any CPU.ActiveCfg = Release|Any CPU
+		{336A45AE-169F-467D-AAF8-83DC18EECA34}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{336A45AE-169F-467D-AAF8-83DC18EECA34}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -1204,6 +1213,7 @@ Global
 		{E88D571B-E012-43ED-99CC-A5FB9B832BE2} = {E9C9F120-07BA-4DFB-B9C3-3AFB9D44C9D5}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
+		{336A45AE-169F-467D-AAF8-83DC18EECA34} = {74492CBC-7201-417E-BC29-28B4C25A58B0}
 		EnterpriseLibraryConfigurationToolBinariesPath = packages\TransientFaultHandling.Core.5.1.1209.1\lib\NET4
 	EndGlobalSection
 EndGlobal

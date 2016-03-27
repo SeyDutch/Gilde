@@ -1,0 +1,8 @@
+Name: GildeTheme
+Author: Eric
+Website: http://www.orchardproject.net
+Description: Theme for Gilde St Willibrordus
+Version: 1.0
+BaseTheme: PJS.Bootstrap
+# todo: provide tags
+# Tags: Classic, Serif

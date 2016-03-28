@@ -1,0 +1,21 @@
+﻿@model Gilde.ViewModels.GalleryViewModel
+
+@{
+    Style.Require("Gallery").AtFoot();
+    Style.Require("Slideshow").AtFoot();
+    Script.Require("Slideshow").AtFoot();
+}
+
+    <div class="gallery-page">
+
+        <h1> @T("Gallery") </h1>
+
+
+        <ul class="pgwSlideshow">
+
+            @foreach (var m in Model.GalleryItems)
+            {
+                <li><img src="@m.MediaUrl" alt="@m.Title" data-description="@m.Caption"></li>
+            }
+        </ul>
+    </div>

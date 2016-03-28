@@ -1,10 +1,10 @@
 ﻿Name: Gilde
 AntiForgery: enabled
-Author: The Orchard Team
+Author: Eric Fransen
 Website: http://orchardproject.net
 Version: 1.0
 OrchardVersion: 1.0
-Description: Description for the module
+Description: Gilde St. Willibrodus module
 Features:
     Gilde:
-        Description: Description for feature Gilde.
+        Description: Gallery, Contact page & form, Mailservice

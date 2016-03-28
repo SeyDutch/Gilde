@@ -2,5 +2,9 @@
     {
         "inputs": [ "Assets/Styles.less" ],
         "output": "Styles/Styles.css"
+    },
+    {
+       "inputs": [ "Assets/Gallery.less" ],
+       "output": "Styles/Gallery.css"
     }
 ]

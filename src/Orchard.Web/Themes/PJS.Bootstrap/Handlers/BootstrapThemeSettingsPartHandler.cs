@@ -1,11 +1,10 @@
-﻿using JetBrains.Annotations;
+﻿
 using Orchard.ContentManagement;
 using Orchard.ContentManagement.Handlers;
 using Orchard.Localization;
 using PJS.Bootstrap.Models;
 
 namespace PJS.Bootstrap.Handlers {
-    [UsedImplicitly]
     public class BootstrapThemeSettingsPartHandler : ContentHandler {
         public BootstrapThemeSettingsPartHandler() {
             T = NullLocalizer.Instance;
